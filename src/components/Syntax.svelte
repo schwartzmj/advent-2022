@@ -8,8 +8,6 @@
 	export let language: string;
 </script>
 
-<pre style="background-color: #eaeaea;">
-    <code>
-        {@html hljs.highlight(code, { language }).value}
-    </code>
-</pre>
+{@html '<pre style="background-color: #eaeaea;"><code>' +
+	hljs.highlight(code, { language }).value +
+	'</code></pre>'}
