@@ -6,7 +6,7 @@
 	import Syntax from '$components/Syntax.svelte';
 </script>
 
-<h1>Day 1</h1>
+<h1>Day 2</h1>
 <button on:click={() => Day2Part1()}>Run Part 1</button>
 <button on:click={() => Day2Part2()}>Run Part 2</button>
 <details>
